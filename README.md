@@ -1,4 +1,4 @@
-#### RNA-seq Processing in terminal
+## RNA-seq Processing in terminal
 
 **1. Align fastq files with HISAT2**  
    This loop will run hisat2 for all files ending in .fastq  
@@ -86,6 +86,6 @@ done
 paste ControlRep1 ControlRep2 TreatmentRep1 TreatmentRep2 > Final Table
 ```
 
-### Differential Expression analysis can now be completed in R with software such as DESeq2
+#### Differential Expression analysis can now be completed in R with software such as DESeq2
 
 
