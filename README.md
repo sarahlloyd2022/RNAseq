@@ -22,7 +22,7 @@ do
   samtools view -S -b -q 30 -o Q30_$file $file
 done
 ```
-**3. Sort bam files
+**3. Sort bam files**
 
 ```
 for file in Q30_*
@@ -46,7 +46,7 @@ bedtools genomecov -ibam $file -g hg19.chrom.sizes -bg -strand - -split > BGM_$f
 done
 ```
 
-**5. Separate strands and re-sort
+**5. Separate strands and re-sort**
 
 ```
 for file in Sort_*
